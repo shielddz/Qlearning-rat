@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: #BDD4DE;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RL.FXMLs.IndexController">
+   <HBox layoutX="37.0" layoutY="14.0" spacing="40.0">
+      <children>
+         <VBox spacing="40.0">
+            <children>
+                <Label text="Taille de la grille" textFill="#2b3a42">
+                    <font>
+                      <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label text="Coefficient d'actualisation" textFill="#2b3a42">
+                    <font>
+                      <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label text="Facteur d'apprentissage" textFill="#2b3a42">
+                    <font>
+                      <Font size="15.0" />
+                    </font>
+                </Label>
+               <Label text="Epsilon (politique epsilon-glouton)" textFill="#2b3a42">
+                  <font>
+                     <Font size="15.0" />
+                  </font>
+               </Label>
+                <Label text="Nombre d'épisodes d'entrainement" textFill="#2b3a42">
+                    <font>
+                      <Font size="15.0" />
+                    </font>
+                </Label>
+                <Label text="Méthode d'entrainement" textFill="#2b3a42">
+                    <font>
+                      <Font size="15.0" />
+                    </font>
+                </Label>
+               <VBox>
+                  <children>
+                     <Label text="Les pourcentages des objets du jeu" textFill="#2b3a42">
+                        <font>
+                           <Font size="15.0" />
+                        </font>
+                     </Label>
+                     <Label text="(Fromages/Double Fromages/Poison)" textFill="#2b3a42">
+                        <font>
+                           <Font size="15.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </VBox>
+            </children>
+         </VBox>
+         <VBox spacing="32.0">
+            <children>
+               <HBox spacing="5.0">
+                  <children>
+                      <JFXTextField fx:id="gridL" alignment="CENTER" focusColor="#2b3a42" promptText="Lignes" unFocusColor="#3f5765" />
+                      <Label text="X" textFill="#2b3a42">
+                          <font>
+                            <Font size="15.0" />
+                          </font>
+                      </Label>
+                      <JFXTextField fx:id="gridC" alignment="CENTER" focusColor="#2b3a42" promptText="Colonnes" unFocusColor="#3f5765" />
+                  </children>
+               </HBox>
+                <JFXTextField fx:id="discountFactor" alignment="CENTER" focusColor="#2b3a42" promptText="[0.0, 1.0]" unFocusColor="#3f5765" />
+                <JFXTextField fx:id="learningRate" alignment="CENTER" focusColor="#2b3a42" promptText="[0.0, 1.0]" unFocusColor="#3f5765" />
+               <JFXTextField fx:id="epsilon" alignment="CENTER" focusColor="#2b3a42" promptText="[0.0, 1.0]" unFocusColor="#3f5765" />
+                <JFXTextField fx:id="numberEpisodes" alignment="CENTER" focusColor="#2b3a42" unFocusColor="#3f5765" />
+               <VBox spacing="10.0">
+                  <children>
+                      <JFXRadioButton fx:id="q" selected="true" text="Q-Learning" textFill="#2b3a42">
+                          <font>
+                            <Font size="13.0" />
+                          </font>
+                        <toggleGroup>
+                           <ToggleGroup fx:id="learningMethod" />
+                        </toggleGroup>
+                      </JFXRadioButton>
+                      <JFXRadioButton fx:id="s" text="SARSA" textFill="#2b3a42" toggleGroup="$learningMethod">
+                          <font>
+                            <Font size="13.0" />
+                          </font>
+                      </JFXRadioButton>
+                  </children>
+               </VBox>
+               <VBox spacing="10.0">
+                  <children>
+                     <JFXRadioButton fx:id="few" selected="true" text="10%/10%/10%" textFill="#2b3a42">
+                        <font>
+                           <Font size="13.0" />
+                        </font>
+                        <toggleGroup>
+                           <ToggleGroup fx:id="prc" />
+                        </toggleGroup>
+                     </JFXRadioButton>
+                     <JFXRadioButton fx:id="lots" text="30%/25%/20%" textFill="#2b3a42" toggleGroup="$prc">
+                        <font>
+                           <Font size="13.0" />
+                        </font>
+                     </JFXRadioButton>
+                  </children>
+               </VBox>
+            </children>
+         </VBox>
+      </children>
+   </HBox>
+   <HBox layoutX="28.0" layoutY="446.0" spacing="200.0">
+      <children>
+         <Label fx:id="errorMessage" prefHeight="40.0" prefWidth="217.0" text="Erreur lors de la saisie des données. Veuillez vérifier les informations saisies." textFill="#ff530d" visible="false" wrapText="true" />
+          <JFXButton fx:id="train" buttonType="RAISED" defaultButton="true" onAction="#Train" text="Commencer l'entrainement!" textFill="#ff530d">
+              <font>
+                <Font size="13.0" />
+              </font>
+          </JFXButton>
+      </children>
+   </HBox>
+</AnchorPane>

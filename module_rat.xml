@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_rat" default="compile.module.rat">
+  <dirname property="module.rat.basedir" file="${ant.file.module_rat}"/>
+  
+  <property name="module.jdk.home.rat" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.rat" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.rat" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.rat" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+  
+  <property name="rat.output.dir" value="${module.rat.basedir}/out/production/Rat"/>
+  <property name="rat.testoutput.dir" value="${module.rat.basedir}/out/test/Rat"/>
+  
+  <path id="rat.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="rat.module.production.classpath">
+    <path refid="${module.jdk.classpath.rat}"/>
+    <path refid="library.json-simple-1.1.classpath"/>
+    <path refid="library.jfoenix-9.0.1.classpath"/>
+    <path refid="library.lib.classpath"/>
+    <path refid="library.commons-math3-3.6.1.classpath"/>
+  </path>
+  
+  <path id="rat.runtime.production.module.classpath">
+    <pathelement location="${rat.output.dir}"/>
+    <path refid="library.json-simple-1.1.classpath"/>
+    <path refid="library.jfoenix-9.0.1.classpath"/>
+    <path refid="library.lib.classpath"/>
+    <path refid="library.commons-math3-3.6.1.classpath"/>
+  </path>
+  
+  <path id="rat.module.classpath">
+    <path refid="${module.jdk.classpath.rat}"/>
+    <pathelement location="${rat.output.dir}"/>
+    <path refid="library.json-simple-1.1.classpath"/>
+    <path refid="library.jfoenix-9.0.1.classpath"/>
+    <path refid="library.lib.classpath"/>
+    <path refid="library.commons-math3-3.6.1.classpath"/>
+  </path>
+  
+  <path id="rat.runtime.module.classpath">
+    <pathelement location="${rat.testoutput.dir}"/>
+    <pathelement location="${rat.output.dir}"/>
+    <path refid="library.json-simple-1.1.classpath"/>
+    <path refid="library.jfoenix-9.0.1.classpath"/>
+    <path refid="library.lib.classpath"/>
+    <path refid="library.commons-math3-3.6.1.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.rat">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.rat">
+    <patternset refid="excluded.from.module.rat"/>
+  </patternset>
+  
+  <path id="rat.module.sourcepath">
+    <dirset dir="${module.rat.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.rat" depends="compile.module.rat.production,compile.module.rat.tests" description="Compile module Rat"/>
+  
+  <target name="compile.module.rat.production" depends="register.custom.compilers" description="Compile module Rat; production classes">
+    <mkdir dir="${rat.output.dir}"/>
+    <javac2 destdir="${rat.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.rat}/javac">
+      <compilerarg line="${compiler.args.rat}"/>
+      <bootclasspath refid="rat.module.bootclasspath"/>
+      <classpath refid="rat.module.production.classpath"/>
+      <src refid="rat.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.rat"/>
+    </javac2>
+    
+    <copy todir="${rat.output.dir}">
+      <fileset dir="${module.rat.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.rat.tests" depends="register.custom.compilers,compile.module.rat.production" description="compile module Rat; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.rat" description="cleanup module">
+    <delete dir="${rat.output.dir}"/>
+    <delete dir="${rat.testoutput.dir}"/>
+  </target>
+</project>

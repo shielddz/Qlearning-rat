@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="650.0" maxWidth="1000.0" minHeight="650.0" minWidth="1000.0" prefHeight="650.0" prefWidth="1000.0" scaleShape="false" style="-fx-background-color: #BDD4DE;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RL.FXMLs.EndController">
+   <AnchorPane fx:id="insideAnchor" layoutX="50.0" layoutY="15.0" prefHeight="500.0" prefWidth="900.0" />
+    <Label fx:id="rewardLabel" layoutX="412.0" layoutY="554.0" text="Récompenses accumulées:" textFill="#2b3a42">
+        <font>
+          <Font size="15.0" />
+        </font>
+    </Label>
+   <Label fx:id="timeText" layoutX="412.0" layoutY="575.0" text="Temps écoulé:" textFill="#2b3a42">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+   <Label fx:id="timeLabel" layoutX="511.0" layoutY="575.0" text="0" textFill="#2b3a42">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+   <HBox layoutX="696.0" layoutY="560.0">
+      <children>
+         <JFXButton fx:id="next" onAction="#step" text="Suivant" textFill="#3f5765">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </JFXButton>
+          <ImageView fitHeight="30.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+              <Image url="@../Images/Arrow_left_to_right.png" />
+          </ImageView>
+      </children>
+   </HBox>
+   <HBox layoutX="215.0" layoutY="560.0">
+      <children>
+         <ImageView fitHeight="30.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Images/Arrow_right_to_left.png" />
+            </image>
+         </ImageView>
+         <JFXButton fx:id="previous" onAction="#stepBack" text="Précédent" textFill="#3f5765">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </JFXButton>
+      </children>
+   </HBox>
+    <JFXButton fx:id="backToIndex" buttonType="RAISED" layoutX="793.0" layoutY="605.0" onAction="#backToIndex" text="Revenir au menu principal" textFill="#ff530d">
+        <font>
+          <Font size="15.0" />
+        </font>
+    </JFXButton>
+</AnchorPane>

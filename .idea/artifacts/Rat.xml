@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Rat">
+    <output-path>$PROJECT_DIR$/out/artifacts/Rat</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="RL.World" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Rat.jar">
+        <element id="module-output" name="Rat" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/commons-math3-3.6.1/commons-math3-3.6.1.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/jfoenix-9.0.1.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx-swt.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.base.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.controls.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.fxml.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.graphics.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.media.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.swing.jar" path-in-jar="/" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.web.jar" path-in-jar="/" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Rat" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bcb3be1b-c4fb-4069-866f-a952753bcdf7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Rat$Main.ic" NAME="Main Coverage Results" MODIFIED="1540516720911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RL/World.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirments.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RL/Agent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="145" column="5" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#maxState#0;class#Agent#0" />
+                <element signature="method#chooseAction#0;class#Agent#0" />
+                <element signature="method#resetQTable#0;class#Agent#0" />
+                <element signature="method#trainQ#0;class#Agent#0" />
+                <element signature="method#trainS#0;class#Agent#0" />
+                <element signature="method#totalReward#0;class#Agent#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new board</find>
+      <find>board[state/8][state%8]</find>
+      <find>2</find>
+      <find>3</find>
+      <find>][</find>
+      <find>8</find>
+      <find>state/this.boardRows</find>
+      <find>mouseS/boardRows</find>
+      <find>boardColumns</find>
+      <find>boardRows</find>
+      <find>/boardRows</find>
+      <find>possible</find>
+      <find>action</find>
+      <find>println</find>
+      <find>false</find>
+      <find>draw</find>
+      <find>System</find>
+      <find>System.out</find>
+      <find>Con</find>
+      <find>.equals(&quot;&quot;)</find>
+      <find>/Images</find>
+      <find>/PFE/Images</find>
+      <find>letter</find>
+      <find>penality</find>
+      <find>poi</find>
+      <find>ch</find>
+      <find>dch</find>
+      <find>end</find>
+      <find>World.epsilon</find>
+      <find>10</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Rat.java" />
+        <option value="$PROJECT_DIR$/src/Calculate.java" />
+        <option value="$PROJECT_DIR$/src/MainSarsa.java" />
+        <option value="$PROJECT_DIR$/src/Board.java" />
+        <option value="$PROJECT_DIR$/src/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/AgentSarsa.java" />
+        <option value="$PROJECT_DIR$/src/AgentQ.java" />
+        <option value="$PROJECT_DIR$/src/Environnement.java" />
+        <option value="$PROJECT_DIR$/src/Agent.java" />
+        <option value="$PROJECT_DIR$/src/FXMLs/index2.fxml" />
+        <option value="$PROJECT_DIR$/src/justInCase" />
+        <option value="$PROJECT_DIR$/src/FXMLs/indexController.java" />
+        <option value="$PROJECT_DIR$/src/FXMLs/End.fxml" />
+        <option value="$PROJECT_DIR$/src/FXMLs/index.fxml" />
+        <option value="$PROJECT_DIR$/src/FXMLs/training.fxml" />
+        <option value="$PROJECT_DIR$/src/FXMLs/EndController.java" />
+        <option value="$PROJECT_DIR$/src/FXMLs/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/FXMLs/TrainingController.java" />
+        <option value="$PROJECT_DIR$/src/World.java" />
+        <option value="$PROJECT_DIR$/src/PFE/Agent.java" />
+        <option value="$PROJECT_DIR$/src/PFE/Environnement.java" />
+        <option value="$PROJECT_DIR$/src/PFE/World.java" />
+        <option value="$PROJECT_DIR$/src/PFE/FXMLs/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/PFE/FXMLs/TrainingController.java" />
+        <option value="$PROJECT_DIR$/src/PFE/FXMLs/EndController.java" />
+        <option value="$PROJECT_DIR$/src/RL/FXMLs/end.fxml" />
+        <option value="$PROJECT_DIR$/src/RL/Backup" />
+        <option value="$PROJECT_DIR$/src/RL/Testing.java" />
+        <option value="$PROJECT_DIR$/src/RL/AgentSarsa.java" />
+        <option value="$PROJECT_DIR$/src/RL/Agent.java" />
+        <option value="$PROJECT_DIR$/src/RL/World.java" />
+        <option value="$PROJECT_DIR$/src/RL/FXMLs/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/RL/Environnement.java" />
+        <option value="$PROJECT_DIR$/src/RL/FXMLs/EndController.java" />
+        <option value="$PROJECT_DIR$/src/RL/FXMLs/LinkedListBoard.java" />
+        <option value="$PROJECT_DIR$/requirments.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="-26" />
+    <option name="width" value="1380" />
+    <option name="height" value="742" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Rat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rat" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="rat" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569205539927" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/json-simple-1.1.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\studies\qlearning\Rat\src\PFE" />
+      <recent name="C:\studies\qlearning\Rat\src" />
+      <recent name="C:\studies\qlearning\Rat" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.World">
+    <configuration name="AgentSarsa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RL.AgentSarsa" />
+      <module name="Rat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RL.Testing" />
+      <module name="Rat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RL.World" />
+      <module name="Rat" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\studies\qlearning\Rat\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="World" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RL.World" />
+      <module name="Rat" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\studies\qlearning\Rat\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RL.World" />
+      <module name="Rat" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\studies\qlearning\Rat\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RL.World" />
+      <module name="Rat" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\studies\qlearning\Rat\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.World" />
+      <item itemvalue="Application.AgentSarsa" />
+      <item itemvalue="Application.Testing" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.World" />
+        <item itemvalue="Application.AgentSarsa" />
+        <item itemvalue="Application.Testing" />
+        <item itemvalue="Application.World" />
+        <item itemvalue="Application.World" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcb3be1b-c4fb-4069-866f-a952753bcdf7" name="Default Changelist" comment="" />
+      <created>1540496683891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540496683891</updated>
+      <workItem from="1540496685543" duration="19847000" />
+      <workItem from="1540546086430" duration="9570000" />
+      <workItem from="1540662058829" duration="1004000" />
+      <workItem from="1540748713309" duration="449000" />
+      <workItem from="1540802848230" duration="214000" />
+      <workItem from="1541154557791" duration="11970000" />
+      <workItem from="1541357114191" duration="52000" />
+      <workItem from="1541499931538" duration="28000" />
+      <workItem from="1541499963802" duration="3912000" />
+      <workItem from="1541518171677" duration="1120000" />
+      <workItem from="1541519925760" duration="42000" />
+      <workItem from="1541520012891" duration="697000" />
+      <workItem from="1541531420109" duration="11000" />
+      <workItem from="1542711974215" duration="1234000" />
+      <workItem from="1543151912023" duration="597000" />
+      <workItem from="1544003610658" duration="1684000" />
+      <workItem from="1544610047736" duration="596000" />
+      <workItem from="1544974069271" duration="305000" />
+      <workItem from="1551968054109" duration="851000" />
+      <workItem from="1552922572674" duration="769000" />
+      <workItem from="1552923454404" duration="972000" />
+      <workItem from="1558014416533" duration="682000" />
+      <workItem from="1558959563011" duration="21000" />
+      <workItem from="1558960609476" duration="633000" />
+      <workItem from="1558961255464" duration="23533000" />
+      <workItem from="1559064645838" duration="102000" />
+      <workItem from="1559389380251" duration="4551000" />
+      <workItem from="1559409533884" duration="3203000" />
+      <workItem from="1560022147714" duration="968000" />
+      <workItem from="1560098670138" duration="1476000" />
+      <workItem from="1560271882673" duration="34000" />
+      <workItem from="1560522722560" duration="6407000" />
+      <workItem from="1560680531809" duration="8609000" />
+      <workItem from="1560870813805" duration="266000" />
+      <workItem from="1560950658082" duration="12516000" />
+      <workItem from="1561036556717" duration="7587000" />
+      <workItem from="1561224859972" duration="11616000" />
+      <workItem from="1561298433819" duration="7151000" />
+      <workItem from="1561306080195" duration="10687000" />
+      <workItem from="1561381679092" duration="4389000" />
+      <workItem from="1561503570492" duration="568000" />
+      <workItem from="1561655958263" duration="8617000" />
+      <workItem from="1561732507874" duration="3453000" />
+      <workItem from="1561738493416" duration="7183000" />
+      <workItem from="1561808018874" duration="19653000" />
+      <workItem from="1561832813656" duration="1077000" />
+      <workItem from="1561904268724" duration="5165000" />
+      <workItem from="1561912481145" duration="10410000" />
+      <workItem from="1561968441484" duration="4488000" />
+      <workItem from="1562332767026" duration="28207000" />
+      <workItem from="1562495035159" duration="22897000" />
+      <workItem from="1562570548974" duration="1000000" />
+      <workItem from="1564063135330" duration="30000" />
+      <workItem from="1566992655105" duration="8105000" />
+      <workItem from="1567178559074" duration="1838000" />
+      <workItem from="1568015687470" duration="666000" />
+      <workItem from="1568119334587" duration="3052000" />
+      <workItem from="1568199811350" duration="1492000" />
+      <workItem from="1568213510118" duration="600000" />
+      <workItem from="1569205276381" duration="273000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="289129000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.16414523" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5030257" side_tool="true" weight="0.31914893" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.4969743" weight="0.2782324" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39934534" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18986385" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5030257" side_tool="true" weight="0.31914893" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.4969743" visible="true" weight="0.31914893" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39934534" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Rat.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/out" />
+    <entry file="file://$PROJECT_DIR$/out.json" />
+    <entry file="file://$PROJECT_DIR$/src/Calculate.java" />
+    <entry file="uml://MODULES/mdl-Rat">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-Rat</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-Rat</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="50.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="628.0" y="685.0">com</node>
+            <node x="297.0" y="0.0">Agent</node>
+            <node x="0.0" y="685.0">images</node>
+            <node x="562.0" y="611.0">netscape</node>
+            <node x="288.0" y="759.0">org</node>
+            <node x="388.0" y="611.0">resources</node>
+            <node x="253.0" y="537.0">toolbarButtonGraphics</node>
+            <node x="145.0" y="759.0">sun</node>
+            <node x="430.0" y="759.0">jdk</node>
+            <node x="209.0" y="611.0">META-INF</node>
+            <node x="0.0" y="611.0">groovyjarjarasm</node>
+            <node x="0.0" y="759.0">java</node>
+            <node x="323.0" y="685.0">assets</node>
+            <node x="162.0" y="685.0">groovy</node>
+            <node x="478.0" y="685.0">javax</node>
+            <node x="0.0" y="537.0">groovyjarjarcommonscli</node>
+            <node x="0.0" y="0.0">Environnement</node>
+            <node x="497.0" y="537.0">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="220.0" />
+          <SelectedNodes>
+            <node>Environnement</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outq_6x6_0.15.json" />
+    <entry file="file://$PROJECT_DIR$/q.json" />
+    <entry file="file://$PROJECT_DIR$/src/FXMLs/index2.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/ToDelete/AgentSarsa.java" />
+    <entry file="file://$PROJECT_DIR$/src/PFE/justInCase" />
+    <entry file="file://$PROJECT_DIR$/src/PFE/ToDelete/TestClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/file.fxml" />
+    <entry file="jar://$PROJECT_DIR$/javafx-sdk-11.0.2/lib/javafx.graphics.jar!/javafx/scene/layout/AnchorPane.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RL/FXMLs/training.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RL/FXMLs/end.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SARSA 0.8.json" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa2100.13917/src/Board.java" />
+    <entry file="file://$PROJECT_DIR$/src/RL/FXMLs/index.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/requirments.txt" />
+    <entry file="file://$PROJECT_DIR$/src/RL/FXMLs/TrainingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RL/Testing.java" />
+    <entry file="file://$PROJECT_DIR$/src/RL/AgentSarsa.java" />
+    <entry file="file://$PROJECT_DIR$/src/RL/Environnement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <element signature="method#Environnement#1;class#Environnement#0" />
+            <element signature="method#possible#0;class#Environnement#0" />
+            <element signature="method#reward#0;class#Environnement#0" />
+            <element signature="method#state#0;class#Environnement#0" />
+            <element signature="method#initState#0;class#Environnement#0" />
+            <element signature="n#!!block;n#randState#0;n#Environnement#0" />
+            <element signature="method#letter#0;class#Environnement#0" />
+            <element signature="method#draw#0;class#Environnement#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RL/FXMLs/LinkedListBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+          <folding>
+            <element signature="method#LinkedListBoard#0;class#LinkedListBoard#0" />
+            <element signature="method#add#0;class#LinkedListBoard#0" />
+            <element signature="method#cloneBoard#0;class#LinkedListBoard#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RL/FXMLs/EndController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RL/FXMLs/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="88" column="75" selection-start-line="88" selection-start-column="75" selection-end-line="88" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RL/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="145" column="5" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#maxState#0;class#Agent#0" />
+            <element signature="method#chooseAction#0;class#Agent#0" />
+            <element signature="method#resetQTable#0;class#Agent#0" />
+            <element signature="method#trainQ#0;class#Agent#0" />
+            <element signature="method#trainS#0;class#Agent#0" />
+            <element signature="method#totalReward#0;class#Agent#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RL/Images/mouse.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RL/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirments.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Rat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Rat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-math3-3.6.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
